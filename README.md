@@ -1,6 +1,6 @@
 # HMS-Autumn-2023-Final-Project-
 
-Subject: Proposal for Final Project - Data Wrangling and Modeling in R; a Simple Linear Regression Lesson for Researchers. 
+Subject: Proposal for Final Project - Data Wrangling and Modeling in R; A Simple Linear Regression Lesson for Researchers. 
 
 To Whom it May Concern
 
