@@ -18,6 +18,12 @@ Exploratory Data Analysis (EDA): Conduct thorough EDA to understand the dataset'
 
 Modeling: Apply appropriate statistical and machine learning models to gain insights or make predictions based on the dataset. The choice of models will depend on the nature of the dataset and the research questions.
 
+This particular project provides a beginner's guide to simple linear regression, using a provided data set from a physician. 
+Simple linear regression is a machine learning technique which can be used and demonstrated in R. 
+As a second year master's level student working on their thesis in machine learning applied to biomedical systems, I designed this project for learners at all levels, from novices to advanced users, with the intention to cater to both students and researchers seeking to enhance their R skills. 
+
+I had a lot of fun working on this simple, yet comprehensive demonstration of a this simple machine learning model. 
+
 Evaluation: Evaluate the performance of the models and interpret the results. This step will include metrics, visualizations, and any necessary hypothesis testing.
 
 
