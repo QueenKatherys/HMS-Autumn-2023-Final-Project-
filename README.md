@@ -4,11 +4,15 @@ Subject: Proposal for Final Project - Data Wrangling and Modeling in R; a Simple
 
 To Whom it May Concern
 
-I am writing to propose my final project for HMS 520.  I will be working individually on this project, and my primary goal is to analyze a dataset( TBD) using data wrangling and modeling tools in R.
+I am writing to propose my final project for HMS 520.  I will be working individually on this project, and my primary goal is to analyze a sample data set from a physician, 'Patient_List_aaliyah-washington-md.csv'  using data wrangling and modeling tools in R.
+
+NOTE: PLEASE IMPORT THE CSV FILE 'Patient_List_aaliyah-washington-md.csv' WITHIN THIS REPOSITORY BEFORE BEGINNING THIS EXCERCISE FOR THIS PROJECT !!!!!!!! 
 
 This particular project provides a beginner's guide to simple linear regression, using a provided data set from a physician. 
 Simple linear regression is a machine learning technique which can be used and demonstrated in R. 
 As a second year master's level student working on their thesis in machine learning applied to biomedical systems, I designed this project for learners at all levels, from novices to advanced users, with the intention to cater to both students and researchers seeking to enhance their R skills. 
+
+NOTE: PLEASE IMPORT THE CSV FILE 'Patient_List_aaliyah-washington-md.csv' BEFORE BEGINNING THIS EXCERCISE!!!!!!!! 
 
 I had a lot of fun working on this simple, yet comprehensive demonstration of a this simple machine learning model. 
 
