@@ -138,6 +138,8 @@ model <- lm(hgba1c ~ wt, data = cleaned_data)
 # Add a trend line to the plot
 abline(model, col = "red")
 
+                            
+
 # Method 2: 'ggplot' function ; while ggplot2 does a good job of handling NA values 
 # by default (usually by exclusion), you have a variety of options to manage NAs explicitly based on your specific needs and the nature of your data
 
