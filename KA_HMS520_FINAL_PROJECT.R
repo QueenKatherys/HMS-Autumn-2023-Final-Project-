@@ -1,5 +1,5 @@
 # Kathleen Ashbaker
-# HMS 520 Fall 2023
+# HMS 520 Autumn 2023
 # Final Project 
 # Linear Regression: A Simple Machine Learning Model 
 
