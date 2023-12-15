@@ -5,10 +5,9 @@
 
 # SCOPE OF PROJECT: 
 
-# This project provides a beginner's guide to simple linear regression,
-# which is  machine learning technique in R.
-# Designed for learners at all levels, from novices to advanced users,
-# it caters to both students and researchers seeking to enhance their R skills
+# The aim of this project is to provide a comprehensive guide to simple linear regression using R.
+# This technique is a fundamental aspect of machine learning and this guide is suitable for learners and researchers  at all levels, whether you're a novice or an advanced user.
+
 
 # Step 0:Load Libraries 
 
@@ -165,4 +164,6 @@ patregclean<- lm(hgba1c ~ wt, data = cleaned_data)
 
 # Step 5B:----------------Summarize Linear Regression Output for cleaned_data
 summary(patregclean)
+
+
 
