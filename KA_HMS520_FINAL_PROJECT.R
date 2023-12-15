@@ -30,7 +30,7 @@ Patient_List_aaliyah_washington_md <- read_csv("Patient_List_aaliyah-washington-
 Patient_List_aaliyah_washington_md <- Patient_List_aaliyah_washington_md %>%
   mutate_all(~ifelse(. == "None", NA, .))
 
-# Summarizes data frame 
+# Summarizes data frame ( Optional)
 
 summary(Patient_List_aaliyah_washington_md)
 
@@ -92,13 +92,10 @@ impute_data <- function(data, use_median = FALSE) {
 
 Patient_List_aaliyah_washington_md <- impute_data(Patient_List_aaliyah_washington_md)
 
+# Step 3:----------------Data visualization
 
+# Load ggplot2 package... for later on 
 
-
-# Step 1: Remove rows with NA values and zeros
-cleaned_data_ggplot2 <- subset(na.omit(Patient_List_aaliyah_washington_md), wt != 0 & hgba1c != 0)
-
-# Load ggplot2 package
 library(ggplot2)
 
 # Assuming your dataframe is named cleaned_data_ggplot2
@@ -114,17 +111,13 @@ plot(Patient_List_aaliyah_washington_md$wt, Patient_List_aaliyah_washington_md$h
 
 
 
-# Optional: Plot only those data points which do not contain any 'NA' values for either 'wt' or 'hgba1c'
+# Step 3B:---------------- Plot only those data points which do not contain any 'NA' or '0' values for either 'wt' or 'hgba1c'
 
-# Two ways to do this: Method 1: 'plot' function
+cleaned_data <- subset(na.omit(Patient_List_aaliyah_washington_md), wt != 0 & hgba1c != 0)
 
-# Step 1B: Remove rows with NA values
-cleaned_data <- na.omit(Patient_List_aaliyah_washington_md)
-
-# Step 2B: Exclude rows where 'wt' or 'hgba1c' is 0
-cleaned_data <- subset(cleaned_data, wt != 0 & hgba1c != 0)
 
 # Step 3B: Plot data
+
 plot(cleaned_data$wt, cleaned_data$hgba1c,xlab = "Weight(lbs)", 
      ylab = "HgbA1c(%)", 
      main = "Does Weight Predict HgbA1c?")
@@ -141,6 +134,8 @@ abline(model, col = "red")
 
 # Method 2: 'ggplot' function ; while ggplot2 does a good job of handling NA values 
 # by default (usually by exclusion), you have a variety of options to manage NAs explicitly based on your specific needs and the nature of your data
+
+cleaned_data_ggplot2 <- subset(na.omit(Patient_List_aaliyah_washington_md), wt != 0 & hgba1c != 0)
 
 # Create scatter plot with ggplot2
 ggplot(cleaned_data_ggplot2, aes(x = wt, y = hgba1c)) +
