@@ -1,5 +1,5 @@
 # 📊 Linear Regression in R: A Tutorial for Professionals and Researchers
-# 👩‍🔬 Overview
+### 👩‍🔬 Overview
 Welcome to this repository containing a comprehensive tutorial on Simple Linear Regression using R, developed by Kathleen Ashbaker as part of the HMS 520: Introduction to Data Science course at the University of Washington (Autumn 2023).
 
 This tutorial is designed for researchers, analysts, and professionals who want a clear and applied introduction to linear regression modeling, data wrangling, and basic statistical interpretation using real-world clinical data.
