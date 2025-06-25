@@ -1,18 +1,18 @@
-📊 Linear Regression in R: A Tutorial for Professionals and Researchers
-👩‍🔬 Overview
+### 📊 Linear Regression in R: A Tutorial for Professionals and Researchers
+# 👩‍🔬 Overview
 Welcome to this repository containing a comprehensive tutorial on Simple Linear Regression using R, developed by Kathleen Ashbaker as part of the HMS 520: Introduction to Data Science course at the University of Washington (Autumn 2023).
 
 This tutorial is designed for researchers, analysts, and professionals who want a clear and applied introduction to linear regression modeling, data wrangling, and basic statistical interpretation using real-world clinical data.
 
-📁 Repository Contents
+### 📁 Repository Contents
 File	Description
 Final Report.pdf	Full written report outlining project scope, data wrangling, regression modeling, results, and interpretation
 .
-PRESENTATION SLIDES.pptx	Slide deck used in final project presentation; includes visualizations and summary of model output
+PRESENTATION SLIDES.pptx	Slide deck used in final project presentation; includes visualizations and summary of model output ( alternatively click the PRESENTATION SLIDES PDF) 
 .
 linear_regression_tutorial.R	Raw R code file walking through the complete analysis pipeline from data cleaning to regression interpretation.
 
-📌 Project Objectives
+### 📌 Project Objectives
 Demonstrate how to clean clinical data using packages like dplyr, tidyverse, and mice.
 
 Perform mean imputation on missing values for key variables (wt, hgba1c).
@@ -23,7 +23,7 @@ Fit and interpret a Simple Linear Regression model predicting HgbA1c based on pa
 
 Evaluate model diagnostics including residuals, R², and p-values.
 
-🧪 Methodology Overview
+### 🧪 Methodology Overview
 Data Loading: Import a real clinical dataset (Patient_List_aaliyah_washington_md.csv) into R.
 
 Data Cleaning: Handle missing values labeled as "None" and apply mean imputation.
@@ -34,7 +34,7 @@ Model Fitting: Use lm() to model hgba1c ~ wt and interpret the results.
 
 Result Interpretation: Understand regression coefficients, statistical significance, and model fit.
 
-📈 Results Summary (Cleaned Data)
+### 📈 Results Summary (Cleaned Data)
 Intercept: 4.96
 
 Slope (wt): 0.0125 → Each unit increase in weight predicts a 0.0125% increase in HgbA1c.
@@ -45,7 +45,7 @@ p-value: < 0.001 → High statistical confidence in the relationship between wei
 
 Visualizations of the model output are provided in the PDF report and slide deck.
 
-🛠️ Tools & Libraries
+### 🛠️ Tools & Libraries
 R Language
 
 tidyverse, dplyr, mice – Data manipulation and imputation
@@ -56,7 +56,7 @@ lm() – Linear regression modeling
 
 summary() – Model interpretation
 
-🎓 Intended Audience
+### 🎓 Intended Audience
 This tutorial is tailored for:
 
 Clinical researchers new to statistical modeling
@@ -67,9 +67,9 @@ Students in introductory ML or biostatistics courses
 
 Professionals seeking reproducible R workflows for modeling
 
-🙋 About the Author
+### 🙋 About the Author
 Kathleen Ashbaker
-Clinical Microbiologist turned Data Science and AI Researcher
+Clinical Microbiologist turned Data Scientist and AI Engineer
 University of Washington, Department of Biomedical Informatics
 📧 Email: kashba@uw.edu
 🔗 GitHub: QueenKatherys
