@@ -1,4 +1,4 @@
-### 📊 Linear Regression in R: A Tutorial for Professionals and Researchers
+#### 📊 Linear Regression in R: A Tutorial for Professionals and Researchers
 # 👩‍🔬 Overview
 Welcome to this repository containing a comprehensive tutorial on Simple Linear Regression using R, developed by Kathleen Ashbaker as part of the HMS 520: Introduction to Data Science course at the University of Washington (Autumn 2023).
 
